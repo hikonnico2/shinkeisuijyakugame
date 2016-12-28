@@ -4,8 +4,8 @@ function init() {
   let cardSet = [];
   let cardNum = 1;
   for (let c = 0; c < 16; c+=2) {
-    cardSet[c] = ['🐎', cardNum];
-    cardSet[c + 1] = ['🍦', cardNum];
+    cardSet[c] = ['🍣', cardNum];
+    cardSet[c + 1] = ['🍕', cardNum];
     cardNum++;
   }
   for (let s = 0; s < 50; s++){
