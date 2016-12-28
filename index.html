@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>神経衰弱ゲーム</title>
+  <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" href="main.css"/>
+  <div id="header">
+  <h3>神経衰弱ゲーム作った∠(｀・ω・´)</h3>
+  </div>
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/vnd.microsoft.icon">
+</head>
+<body onload="init()">
+  <div id="contents">
+  <table>
+    <tr>
+      <td><button id="0_0" type="button" onclick="turn(0,0)"> ? </button></td>
+      <td><button id="0_1" type="button" onclick="turn(0,1)"> ? </button></td>
+      <td><button id="0_2" true="button" onclick="turn(0,2)"> ? </button></td>
+      <td><button id="0_3" true="button" onclick="turn(0,3)"> ? </button></td>
+    </tr>
+    <tr>
+      <td><button id="1_0" type="button" onclick="turn(1,0)"> ? </button></td>
+      <td><button id="1_1" type="button" onclick="turn(1,1)"> ? </button></td>
+      <td><button id="1_2" true="button" onclick="turn(1,2)"> ? </button></td>
+      <td><button id="1_3" true="button" onclick="turn(1,3)"> ? </button></td>
+    </tr>
+    <tr>
+      <td><button id="2_0" type="button" onclick="turn(2,0)"> ? </button></td>
+      <td><button id="2_1" type="button" onclick="turn(2,1)"> ? </button></td>
+      <td><button id="2_2" true="button" onclick="turn(2,2)"> ? </button></td>
+      <td><button id="2_3" true="button" onclick="turn(2,3)"> ? </button></td>
+    </tr>
+     <tr>
+      <td><button id="3_0" type="button" onclick="turn(3,0)"> ? </button></td>
+      <td><button id="3_1" type="button" onclick="turn(3,1)"> ? </button></td>
+      <td><button id="3_2" true="button" onclick="turn(3,2)"> ? </button></td>
+      <td><button id="3_3" true="button" onclick="turn(3,3)"> ? </button></td>
+    </tr>
+  </table>
+  </div>
+  <input type="button" value="もっかいプレイ" onclick="location.reload();" />
+  <div id="footer">
+  <h2>～ルール～</h2>
+  <p>クリックするとカードがめくれます。</p>
+  <p><font color="#F4CB64" font size="5px"><b>同じ数字</b></font>のカードを見つけるとあたりです。</p>
+  <p>全部あてるとゲームクリアです。</p>
+  </div>
+</body>
+</html>
