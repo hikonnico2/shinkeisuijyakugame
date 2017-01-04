@@ -8,7 +8,7 @@ body{
 
 #header{
   width:auto;
-  height:60px;
+  height:80px;
   background-color:#1e93c1;
   font-size:30px;
   text-align: center;
@@ -30,7 +30,7 @@ body{
 
 #footer{
   width: auto;
-  height:150px;
+  height:200px;
   background-color :lightseagreen;
   color : #ffffff;
   font-size:1.4em;
